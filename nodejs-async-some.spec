@@ -10,7 +10,7 @@
 
 Name:		%{?scl_prefix}nodejs-async-some
 Version:	1.0.2
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	Short-circuited, asynchronous version of Array.prototype.some
 Url:		https://github.com/othiym23/async-some
 Source0:	https://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
@@ -59,6 +59,9 @@ tap test/*.js
 %doc LICENSE
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.0.2-3
+- rebuilt
+
 * Fri Nov 27 2015 Tomas Hrcka <thrcka@redhat.com> - 1.0.2-2
 - Enable scl macros
 
